@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Soul food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Soul Food</h1>
+            <div class="quote">Еда объединяет. Она заставляет нас чувствовать себя как дома, даже если мы далеко от него. — Реми ("Рататуй")</div>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <p>Меня зовут Варя и я учусь на направлении информационные сети и технологии, это мой курсовой проект. Он создан для того, чтобы оптимизировать поиск рецептов. Проходите по вкладкам и выбирайте понравившийся рецепт. Удачи!</p>
+    </div>
+
+    <div class="nav-bar">
+        <button class="nav-btn active" data-category="all">ВСЕ</button>
+        <button class="nav-btn" data-category="завтрак">ЗАВТРАК</button>
+        <button class="nav-btn" data-category="обед">ОБЕД</button>
+        <button class="nav-btn" data-category="ужин">УЖИН</button>
+        <button class="nav-btn" data-category="десерты">ДЕСЕРТЫ</button>
+        <button class="nav-btn" data-category="закуски">ЗАКУСКИ</button>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="🔍 Поиск по продукту (например: курица, сыр, помидоры, яйца)">
+    </div>
+
+    <div id="recipesContainer" class="recipes-grid">
+        <!-- Карточки будут подгружены JS -->
+    </div>
+
+    <!-- Модальное окно -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Подвал сайта -->
+<footer class="site-footer">
+    <div class="footer-content">
+        <p class="thanks">✨ Спасибо, что заглянули на Soul Food! ✨</p>
+        <p class="contacts">Моя почта: <a href="mailto:varvaraermolaeva1@gmail.com">varvaraermolaeva1@gmail.com</a></p>
+        <p class="copyright">© 2026 Soul Food</p>
+    </div>
+</footer>
+
+</body>
+</html>
