@@ -345,7 +345,7 @@ function renderRecipes() {
     
     container.innerHTML = filtered.map(recipe => `
         <div class="recipe-card" data-id="${recipe.id}">
-            <img src="${recipe.image}" alt="${recipe.name}" onerror="this.src='https://via.placeholder.com/300x200?text=Нет+фото'">
+            <img src="${recipe.image}" alt="${recipe.name}">
             <div class="recipe-card-content">
                 <h3>${recipe.name}</h3>
                 <div class="recipe-meta">
