@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Soul food</title>
+    <title>Soul Food</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!--шапка сайта-->
     <div class="hero">
         <div class="hero-content">
             <h1>Soul Food</h1>
@@ -15,10 +16,14 @@
         </div>
     </div>
 
+    <!--обо мне-->
     <div class="about-section">
-        <p>Меня зовут Варя и я учусь на направлении информационные сети и технологии, это мой курсовой проект. Он создан для того, чтобы оптимизировать поиск рецептов. Проходите по вкладкам и выбирайте понравившийся рецепт. Удачи!</p>
+        <p>Меня зовут Варя и я учусь на направлении информационные сети и технологии, это мой курсовой проект.
+         Он создан для того, чтобы оптимизировать поиск рецептов. 
+         Проходите по вкладкам и выбирайте понравившийся рецепт. Удачи!</p>
     </div>
 
+    <!--навигация-->
     <div class="nav-bar">
         <button class="nav-btn active" data-category="all">ВСЕ</button>
         <button class="nav-btn" data-category="завтрак">ЗАВТРАК</button>
@@ -28,15 +33,16 @@
         <button class="nav-btn" data-category="закуски">ЗАКУСКИ</button>
     </div>
 
+    <!--поиск-->
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="🔍 Поиск по продукту (например: курица, сыр, помидоры, яйца)">
     </div>
 
+    <!--контейнер для карточек-->
     <div id="recipesContainer" class="recipes-grid">
-        <!-- Карточки будут подгружены JS -->
     </div>
 
-    <!-- Модальное окно -->
+    <!--модальное окно-->
     <div id="recipeModal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
@@ -46,7 +52,7 @@
 
     <script src="script.js"></script>
 
-    <!-- Подвал сайта -->
+    <!--подвал сайта-->
 <footer class="site-footer">
     <div class="footer-content">
         <p class="thanks">✨ Спасибо, что заглянули на Soul Food! ✨</p>

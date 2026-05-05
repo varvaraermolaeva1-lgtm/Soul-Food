@@ -1,3 +1,4 @@
+/*шрифты*/
 @font-face {
     font-family: 'AllText';
     src: url('fonts/TAN-PEARL.ttf') format('truetype');
@@ -6,12 +7,15 @@
     font-family: 'QuoteFont';
     src: url('fonts/ofont.ru_Czizh.ttf') format('truetype');
 }
+
+/*сброс отступов*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*основной стиль*/
 body {
     font-family: 'AllText';
     background-color: #f3efea;
@@ -19,7 +23,7 @@ body {
     line-height: 1.5;
 }
 
-/* Фон только для главной секции */
+/*шапка сайта*/
 .hero {
     background-image: url('images/fon.jpg');
     background-size: cover;
@@ -67,6 +71,7 @@ body {
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
+/*обо мне*/
 .about-section {
     background-color: #E7E0D8;
     padding: 1.5rem;
@@ -80,7 +85,7 @@ body {
     font-size: 1.1rem;
 }
 
-/* Навигация */
+/*навигация*/
 .nav-bar {
     background-color: #2b1812;
     padding: 1rem;
@@ -112,7 +117,7 @@ body {
     color: #2b1812;
 }
 
-/* Поиск */
+/*поиск*/
 .search-container {
     max-width: 600px;
     margin: 1.5rem auto;
@@ -134,7 +139,7 @@ body {
     box-shadow: 0 0 0 2px rgba(46,92,59,0.2);
 }
 
-/* Карточки рецептов */
+/*карточки рецептов*/
 .recipes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -191,7 +196,7 @@ body {
     margin-top: 0.5rem;
 }
 
-/* Модальное окно */
+/*модальное окно*/
 .modal {
     display: none;
     position: fixed;
@@ -246,6 +251,7 @@ body {
     border-radius: 16px;
 }
 
+/*ингредиенты*/
 .full-ingredients, .steps {
     margin: 1rem 0;
 }
@@ -261,13 +267,14 @@ body {
     white-space: pre-line;
 }
 
+/*адаптивность для телефона*/
 @media (max-width: 680px) {
     .hero-content h1 { font-size: 2.5rem; }
     .nav-btn { padding: 0.4rem 1rem; font-size: 0.85rem; }
     .recipes-grid { padding: 1rem; gap: 1rem; }
 }
 
-/* Подвал (footer) */
+/*подвал сатйа*/
 .site-footer {
     background-color: #2b18126f;
     color: #E7E0D8;

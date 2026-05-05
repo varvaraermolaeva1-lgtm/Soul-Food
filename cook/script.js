@@ -78,7 +78,8 @@ const recipes = [
     video: "videos/lazania.mp4" },
 
     { id: 4, 
-    name: "Макароны по-флотски", category: "обед", 
+    name: "Макароны по-флотски", 
+    category: "обед", 
     time: 30, 
     ingredientsShort: "макароны, фарш, лук", 
     ingredientsFull: ["200 г макарон", "250 г фарша", "2 луковицы", "Соль, приправа по вкусу", "2 моркови", "100 г томатной пасты", "1 кубик бульона", "600 г кипятка", "Зелень"], 
@@ -87,7 +88,43 @@ const recipes = [
     " Добавить зелень, перемешать. Выключить плиту и оставить настояться макароны на 10 минут.", 
     image: "images/navy_pasta.jfif", 
     video: "videos/navy_pasta.mp4" },
-    
+
+    { id: 14, 
+    name: "Котлеты с картошкой", 
+    category: "обед", 
+    time: 40, 
+    ingredientsShort: "фарш, сметана, картошка", 
+    ingredientsFull: ["400 г фарша", "350 г картофель", "Лук среднего размаера", "3 зубчика чеснока", "1 яйцо", "соль, специи по вкусу", "2 ст.л кетчупа", "2 ст.л сметаны 20%", "1 ст.л муки", "200 мл воды комнатной температуры", "петрушка/укроп"], 
+    steps: "Картофель трем на крупной терке, лук и чеснок измельчаем в блендере, добавляем к фаршу с яйцом, солью и специями."+
+    " Формируем котлеты, обжариваем до золотистой корочки и полуготовности. Смешиваем кетчуп, сметану, муку, воду и соль."+
+    " Протираем сковороду, возвращаем котлеты, заливаем соусом, томим под крышкой 25 минут на слабом огне. Посыпаем зеленью."+
+    "\nПодавать можно со свежими овощами.",
+    image: "images/cutlets.jpg", 
+    video: "videos/cutlets.mp4" },
+
+    { id: 15, 
+    name: "Пицца на лепешке", 
+    category: "обед", 
+    time: 15, 
+    ingredientsShort: "лепешки, сыр, пепперони", 
+    ingredientsFull: ["2 лепешки", "2 ст.л томатной пасты", "200 г сыра", "Колбаса пепперони", "80 г шапиньонов", "Веточку базелика", "Оливковое масло по вкусу"], 
+    steps: "1. На лепешку намазать томатную пасту и сверху посыпать сром. Положить сверху вторую лепешку, намазать томатной пастой и посыпать сыром."+
+    "\n2. Выложить колбаску, грибы и базилик. Полить сверху оливковым маслом."+
+    "\n3. Поставить в духовку или аэрогриль на 190 °C на 10 минут.",
+    image: "images/pizza.jpg", 
+    video: "videos/pizza.mp4" },
+
+    { id: 16, 
+    name: "Вок с курицей", 
+    category: "обед", 
+    time: 30, 
+    ingredientsShort: "курица, перец, пшеничная лапша", 
+    ingredientsFull: ["400 г куриного филе", "1 балгарский перец", "1 луковица", "1 цукини", "1 морковка", "Пару листиков пикинской капусты", "2 зубчика чеснока", "1 ч.л сушенного имбиря", "Пшеничная лапша", "50 мл соевого соуса", "1 ст.л соуса терияки", "Зеленый лук", "Кунжут"], 
+    steps: "Нарезать овощи соломкой, чеснок измельчить. Курицу нарезать кубиками. На разогретой сковородке с маслом общарить чеснок и имбирь."+
+    " Добавить куриное филе и овощи. Жарить до готовности. Отварить лапшу и добавить ее к овощам. Добавить половник воды из лапши, соевый соус и терияки."+
+    " Немного обжарить. При подачи добавить кунжут и зеленый лук.", 
+    image: "images/wok.jpg", 
+    video: "videos/wok.mp4" },
     
     //УЖИН 
     { id: 5, 
@@ -118,6 +155,38 @@ const recipes = [
     " Выложить рис и фрикасе в тарелку. Блюдо готово!", 
     image: "images/fricassee.jpg", 
     video: "videos/fricassee.mp4" },
+
+    { id: 17, 
+    name: "Птитим с грибами", 
+    category: "ужин", 
+    time: 50, 
+    ingredientsShort: "птитим, грибы, бекон, сливки", 
+    ingredientsFull: ["150 г сырокопченного бекона ", "170 г пасты птитим", "2 зубчика чеснока ", "200 г шампиньонов", "1 ч.л соевого соуса", "1 ч.л праванские травы", "350 мл кипятка", "100 мл сливок 20%", "40 г сыра", "перец, соль по вкусу"], 
+    steps: "Бекон режем и жарим с чесноком без масла. Добавляем шампиньоны, жарим до мягкости, выливаем соевый соус и добавляем прованские травы,"+
+    " перемешиваем и всыпаем птитим. Заливаем кипятком и подогретыми сливками, тушим на медленном огне под крышкой 15 минут до аль-денте,"+
+    " помешивая. Солим, перчим и посыпаем тертым сыром.", 
+    image: "images/ptitim.jpg", 
+    video: "videos/ptitim.mp4" },
+
+    { id: 18, 
+    name: "Конвертики из фарша", 
+    category: "ужин", 
+    time: 50, 
+    ingredientsShort: "курица, сыр, картошка", 
+    ingredientsFull: ["400 г куриного филе", "200 г сыра", "180 г творожного сыра", "Зелень", "Специи по вкусу", "4 картофилины"], 
+    steps: "", 
+    image: "images/farh.jpg", 
+    video: "videos/farh.mp4" },
+
+    { id: 19, 
+    name: "Запеканка", 
+    category: "ужин", 
+    time: 50, 
+    ingredientsShort: "курица, сыр, картошка", 
+    ingredientsFull: ["400 г куриного филе", "200 г сыра", "180 г творожного сыра", "Зелень", "Специи по вкусу", "4 картофилины"], 
+    steps: "", 
+    image: "images/casserole.jpg", 
+    video: "videos/casserole.mp4" },
     
     //ДЕСЕРТЫ 
     { id: 7, 
@@ -145,6 +214,36 @@ const recipes = [
     "\n4. Разлить смесь по формам. Поставить в холодильник до полного остывания.", 
     image: "images/panacota.jfif", 
     video: "videos/panacota.mp4" },
+
+    { id: 20, 
+    name: "Вишневый штрудель", 
+    category: "десерты", 
+    time: 10, 
+    ingredientsShort: "сливки, сгущенка", 
+    ingredientsFull: ["750 мл 33% сливок", "360 г сгущенки", "200 г бананов", "200 г малины", "80 г молочного шоколада"], 
+    steps: "", 
+    image: "images/strudel.jpg", 
+    video: "videos/strudel.mp4" },
+
+    { id: 21, 
+    name: "Шоколадный кекс", 
+    category: "десерты", 
+    time: 10, 
+    ingredientsShort: "сливки, сгущенка", 
+    ingredientsFull: ["750 мл 33% сливок", "360 г сгущенки", "200 г бананов", "200 г малины", "80 г молочного шоколада"], 
+    steps: "", 
+    image: "images/cupcake.jpg", 
+    video: "videos/cupcake.mp4" },
+
+    { id: 22, 
+    name: "Тирамису", 
+    category: "десерты", 
+    time: 10, 
+    ingredientsShort: "сливки, сгущенка", 
+    ingredientsFull: ["750 мл 33% сливок", "360 г сгущенки", "200 г бананов", "200 г малины", "80 г молочного шоколада"], 
+    steps: "", 
+    image: "images/tiramisu.jpg", 
+    video: "videos/tiramisu.mp4" },
     
     //ЗАКУСКИ 
     { id: 9, 
@@ -168,22 +267,52 @@ const recipes = [
     " Аккуратно извлечь желток из яйца и тоже добавить в масло. Накрыть фольгой миску и отправить в разогретую духовку до 200 °C на 5 минут."+
     " Разрезать батон и поджарить кусочки на сковороде до золотой корочки. Намазать желток по кусочку батона. Сверху натереть на мелкой терке пармизан.", 
     image: "images/bruschetta.jpg", 
-    video: "videos/bruschetta.mp4" }
+    video: "videos/bruschetta.mp4" },
+
+    { id: 23, 
+    name: "Запеченые мидии", 
+    category: "закуски", 
+    time: 10, 
+    ingredientsShort: "грибы эноки, бекон", 
+    ingredientsFull: ["300 г грибов эноки", "400 г бекона"], 
+    steps: "", 
+    image: "images/mussels.jpg", 
+    video: "videos/mussels.mp4" },
+
+    { id: 24, 
+    name: "Елочки песто", 
+    category: "закуски", 
+    time: 10, 
+    ingredientsShort: "грибы эноки, бекон", 
+    ingredientsFull: ["300 г грибов эноки", "400 г бекона"], 
+    steps: "", 
+    image: "images/pesto.jpg", 
+    video: "videos/pesto.mp4" },
+
+    { id: 25, 
+    name: "Тарелка - золотая рыбка", 
+    category: "закуски", 
+    time: 10, 
+    ingredientsShort: "грибы эноки, бекон", 
+    ingredientsFull: ["300 г грибов эноки", "400 г бекона"], 
+    steps: "", 
+    image: "images/fish.jpg", 
+    video: "videos/fish.mp4" }
 ];
 
-// ---- Логика работы ----
+//логика работы
 let currentCategory = "all";
 let currentSearchQuery = "";
 
 function renderRecipes() {
     let filtered = [...recipes];
     
-    // Фильтр по категории (если не all)
+    //фильтр по категории
     if (currentCategory !== "all") {
         filtered = filtered.filter(r => r.category === currentCategory);
     }
     
-    // Фильтр по поиску (по продукту)
+    //фильтр по поиску 
     if (currentSearchQuery.trim() !== "") {
         const query = currentSearchQuery.trim().toLowerCase();
         filtered = filtered.filter(r => {
@@ -213,7 +342,7 @@ function renderRecipes() {
         </div>
     `).join("");
     
-    // Добавить обработчики клика на карточки
+    //клик на карточки
     document.querySelectorAll(".recipe-card").forEach(card => {
         card.addEventListener("click", (e) => {
             const id = parseInt(card.dataset.id);
@@ -248,7 +377,7 @@ function openModal(recipe) {
     modal.style.display = "flex";
 }
 
-// Закрытие модального окна
+//закрытие модального окна
 document.querySelector(".close-modal").addEventListener("click", () => {
     document.getElementById("recipeModal").style.display = "none";
 });
@@ -257,7 +386,7 @@ window.addEventListener("click", (e) => {
     if (e.target === modal) modal.style.display = "none";
 });
 
-// Навигация
+//навигация
 document.querySelectorAll(".nav-btn").forEach(btn => {
     btn.addEventListener("click", () => {
         document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
@@ -267,12 +396,12 @@ document.querySelectorAll(".nav-btn").forEach(btn => {
     });
 });
 
-// Поиск
+//поиск
 const searchInput = document.getElementById("searchInput");
 searchInput.addEventListener("input", (e) => {
     currentSearchQuery = e.target.value;
     renderRecipes();
 });
 
-// Первоначальная отрисовка
+//отрисовка
 renderRecipes();
