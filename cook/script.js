@@ -371,10 +371,9 @@ function openModal(recipe) {
     const modal = document.getElementById("recipeModal");
     const modalContent = document.getElementById("modalContent");
     
-    const hasVideo = recipe.video && recipe.video !== "";
-    const videoHtml = hasVideo ? `
+    const videoHtml = recipe.video && recipe.video !== "" ? `
             <video controls src="${recipe.video}" class="modal-video">Ваш браузер не поддерживает видео.</video>
-    ` : `<p>🎬 Видео-рецепт временно отсутствует</p>`;
+    ` : "";
     
     modalContent.innerHTML = `
         <h2 class="modal-title">${recipe.name}</h2>
