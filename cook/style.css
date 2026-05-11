@@ -149,6 +149,14 @@ body {
     margin: 0 auto;
 }
 
+/*рецептов не найденно*/
+.recipes-grid:has(p) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
 .recipe-card {
     background: white;
     border-radius: 24px;
