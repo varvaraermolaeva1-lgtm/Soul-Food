@@ -339,7 +339,7 @@ function renderRecipes() {
     
     const container = document.getElementById("recipesContainer");
     if (filtered.length === 0) {
-        container.innerHTML = `<p style="text-align:center; width:100%; padding:3rem;">🍽️ Рецептов не найдено. Попробуйте изменить поиск или категорию.</p>`;
+        container.innerHTML = `<p style="text-align:center; width:100%; padding:3rem;">Рецептов не найдено. Попробуйте изменить поиск или категорию.</p>`;
         return;
     }
     
